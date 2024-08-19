@@ -1,0 +1,419 @@
+.last-part {
+  display: flex;
+  flex-direction: column;
+  width: 644px;
+  height: 889px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  opacity: 1;
+}
+
+.task-part {
+  height: 429px;
+  gap: 0px;
+  opacity: 1;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-bar {
+
+  height: 69px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DFE2F2
+}
+
+.task-bar .heading {
+  width: 135px;
+  height: 22px;
+  gap: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.task-bar .heading h1 {
+  color: #1E1F21;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+
+}
+
+.task-bar .heading a {
+  margin-left: 12px;
+  color: #515BAE;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  text-align: center;
+
+}
+
+.task-bar .links {
+  width: 274px;
+  height: 26px;
+  top: 42px;
+  gap: 24px;
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-align: left;
+
+
+}
+
+.task-bar .links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-bar .links li {
+  margin-right: 24px;
+}
+
+.task-bar .links li:last-child {
+  margin-right: 0;
+}
+
+.tasks {
+
+  height: 340px;
+  opacity: 0px;
+  border: 1px solid #E5E9FF;
+  border-radius: 12px;
+}
+
+.tasks table {
+  width: 644px;
+  height: 340px;
+}
+
+.tasks .head-tr {
+  background: #F8F9FC;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+  color: #6A6A6D;
+  height: 47px;
+  width: 644px;
+
+}
+
+.tasks .rows {
+  width: 604px;
+  height: 56px;
+  border-bottom: 1px solid #E5E9FF;
+  text-align: justify;
+}
+
+.tasks button {
+  border: 1px solid #CECED1;
+  border-radius: 24px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+  color: #6A6A6D;
+
+}
+
+.tasks th,
+.tasks td {
+  padding-left: 20px;
+  border-bottom: 1px solid #E5E9FF
+}
+
+.task-bar {
+
+  height: 69px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DFE2F2
+}
+
+.task-bar .heading h1 {
+  color: #1E1F21;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+
+}
+
+.task-bar .heading a {
+  margin-left: 12px;
+  color: #515BAE;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  text-align: center;
+
+}
+
+.task-bar .links {
+  width: 274px;
+  height: 26px;
+  top: 42px;
+  gap: 24px;
+  margin-top: 20px;
+
+}
+
+.task-bar .links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-bar .links li {
+  margin-right: 24px;
+}
+
+.task-bar .links li:last-child {
+  margin-right: 0;
+}
+
+.tasks {
+
+  height: 340px;
+  opacity: 0px;
+  border: 1px solid #E5E9FF;
+  border-radius: 12px;
+}
+
+.tasks table {
+  width: 644px;
+  height: 340px;
+}
+
+.tasks .head-tr {
+  background: #F8F9FC;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+  color: #6A6A6D;
+  height: 47px;
+  width: 644px;
+}
+
+.tasks .rows {
+  width: 604px;
+  height: 56px;
+  border-bottom: 1px solid #E5E9FF;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+
+}
+
+.tasks button {
+  border: 1px solid #CECED1;
+  border-radius: 24px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+  color: #6A6A6D;
+
+}
+
+.tasks th,
+.tasks td {
+  padding-left: 20px;
+  border-bottom: 1px solid #E5E9FF
+}
+
+.payment-part {
+
+  height: 420px;
+
+}
+
+.payment-bar {
+
+  height: 22px;
+  margin-bottom: 14px;
+
+
+}
+
+.payment-bar .heading {
+  width: 241px;
+  height: 22px;
+  gap: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2 12px;
+}
+
+.payment-bar .heading h1 {
+  color: #1E1F21;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+
+}
+
+.payment-bar .heading a {
+  margin-left: 12px;
+  color: #515BAE;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  text-align: center;
+
+}
+
+.payments {
+
+  height: 340px;
+
+  border: 1px solid #E5E9FF;
+  border-radius: 12px;
+}
+
+.payments table {
+  width: 644px;
+  height: 340px;
+}
+
+.payments .head-tr {
+  background: #F8F9FC;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+  color: #6A6A6D;
+  height: 47px;
+  width: 644px;
+}
+
+.payments .rows {
+  width: 604px;
+  height: 41px;
+  border-bottom: 1px solid #E5E9FF;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+
+}
+
+.payments th,
+.payments td {
+  padding-left: 20px;
+  border-bottom: 1px solid #E5E9FF
+}
+
+.payments .col1 {
+  font-weight: 600;
+
+}
+
+
+.tasksbox {
+  display: none;
+}
+
+.tasksbox-item {
+  margin-bottom: 10px;
+  align-content: center;
+}
+
+.tasksbox-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tasksbox-title {
+  flex: 1;
+}
+
+
+.accordion {
+  display: none;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  align-content: center;
+}
+
+.accordion-body.active {
+  background: #F8F9FC;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-id {
+  flex: 1;
+}
+
+.accordion-amount {
+  flex: 1;
+  text-align: right;
+}
+
+.accordion-arrow {
+  margin-left: 10px;
+}
+
+.accordion-body {
+  display: none;
+  padding: 10px;
+  background: #F8F9FC;
+}
+
+.accordion-body div {
+  margin-bottom: 5px;
+}
+
+
+
+.head-mob {
+  background: #0F1738;
+  width: 233.65px;
+  height: 30px;
+  margin-right: 27.3px;
+  display: none;
+}

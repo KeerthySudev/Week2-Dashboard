@@ -1,0 +1,271 @@
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .head-mob {
+        display: flex;
+        flex-direction: column;
+        height: 88px;
+        width: 100%;
+    }
+
+    .side-bar {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .title {
+        position: relative;
+        top: 9px;
+        left: 23px;
+    }
+
+    .menu img {
+        top: -14.63px;
+        left: 409.3px;
+    }
+
+    .side-footer {
+        margin: 0;
+    }
+
+    .middle-part {
+        width: 100%;
+        height: 906px;
+        border-right: none;
+        border-bottom: 1px solid #C9CEE9;
+        margin-left: 0;
+    }
+
+    .mailbox,
+    .legalbox {
+        width: 100%;
+        background-color: #F8F9FF;
+        height: 155px;
+        margin-left: 0;
+    }
+
+    .mail-head .title,
+    .legal-head .title {
+        top: 0;
+        left: 0;
+    }
+
+    .mail-head .title a {
+        left: 279px;
+    }
+
+    .legal-head .title a {
+        left: 179px;
+    }
+
+    .mails,
+    .legals {
+        width: 96%;
+    }
+
+    .last-part {
+        width: 100%;
+        height: 2000px;
+        margin-top: 105px;
+        margin-left: 0;
+    }
+
+    .task-bar .heading h1 {
+        position: relative;
+        left: -14px;
+    }
+
+    .task-bar .heading a {
+        position: relative;
+        left: 282px;
+    }
+
+    .payment-bar .heading a {
+        position: relative;
+        left: 187px;
+    }
+
+    .tasks,
+    .payments {
+        display: none;
+    }
+
+
+
+
+
+
+    .tasksbox {
+        display: block;
+    }
+
+    .tasksbox-columns {
+        flex-direction: row;
+        display: flex;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16.9px;
+        letter-spacing: 0.005em;
+        text-align: left;
+        position: relative;
+        left: 10px;
+        margin-bottom: 5px;
+        color: #6A6A6D;
+
+    }
+
+    .tasksbox-date {
+        position: relative;
+        left: 140px;
+    }
+
+    .tasksbox-columns p {
+        margin-top: 5px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: black;
+    }
+
+    .tasksbox-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tasksbox-status {
+        flex-direction: column;
+        display: flex;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16.9px;
+        letter-spacing: 0.005em;
+        text-align: left;
+        position: relative;
+        left: 10px;
+        gap: 5px;
+        margin-bottom: 32px;
+        color: #6A6A6D;
+
+    }
+
+    .tasksbox-status button {
+        width: 114px;
+        height: 24px;
+        padding: 4px 12px 4px 12px;
+        gap: 10px;
+        border-radius: 24px;
+        background: #F1F1F5;
+        border: 1px solid #CECED1;
+
+
+    }
+
+    .tasksbox-title {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+
+
+    .payment-part {
+        position: relative;
+        top: 510px;
+    }
+
+    .payment-bar {
+        margin-bottom: 64px;
+    }
+
+
+
+
+    .accordion {
+        display: block;
+    }
+
+    .accordion-header {
+        flex-direction: row;
+        align-items: flex-start;
+        height: 47px;
+    }
+
+    .accordion-head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .accordion-id {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .accordion-date {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.6px;
+        text-align: left;
+    }
+
+    .accordion-amount {
+        margin-top: 5px;
+        margin-top: 5px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        text-align: right;
+    }
+
+    .accordion-arrow {
+        margin-top: 5px;
+    }
+
+    .accordion-body {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .accordion-description {
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16.9px;
+        letter-spacing: 0.005em;
+        text-align: left;
+    }
+
+    .accordion-description p {
+        margin-top: 5px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: black;
+    }
+
+    .accordion .line,
+    .tasksbox .line {
+        border: 1px solid #E5E9FF;
+        width: 420px;
+        position: relative;
+        left: 11px;
+        margin-bottom: 32px;
+    }
+}

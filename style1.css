@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container {
+  display: flex;
+  height: 1019px;
+}
+
+.side-bar {
+  background: #0F1738;
+  width: 293px;
+  height: 100%;
+}
+
+.head {
+  width: 233.65px;
+  height: 30px;
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-right: 27.3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  width: 158.65px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title img {
+  width: 17.33px;
+  height: 17.33px;
+  color: white;
+  position: relative;
+  margin: 4.67px 0px;
+}
+
+.title p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0px;
+  text-align: left;
+  color: white;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 14px;
+}
+
+.menu img {
+  width: 17.4px;
+  height: 11.27px;
+  top: 6.37px;
+  left: 57.3px;
+  position: relative;
+  color: white;
+}
+
+.account {
+  width: 159px;
+  height: 32px;
+  margin-top: 28px;
+  margin-left: 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.account p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: 2px;
+  left: 8px;
+}
+
+.account .img img {
+  position: relative;
+  width: 11.3px;
+  height: 6.73px;
+  top: 5.33px;
+  left: 22.35px;
+  color: white;
+}
+
+.dashboard {
+  width: 229px;
+  height: 44px;
+  margin-top: 33px;
+  margin-left: 19px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #FFFFFF1A;
+}
+
+.dash-board {
+  width: 105px;
+  height: 24px;
+  top: 10px;
+  position: relative;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dash-board img {
+  width: 17.63px;
+  height: 17.6px;
+  margin-top: 2.6px;
+  margin-left: 3.79px;
+  color: white;
+}
+
+.dash-board p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: white;
+  margin: 2px 2px 0px 8px;
+}
+
+.business {
+  width: 128.8px;
+  height: 24px;
+  margin-top: 20px;
+  margin-left: 29px;
+  display: flex;
+  flex-direction: row;
+}
+
+.business img {
+  width: 17.5px;
+  height: 17.5px;
+  color: white;
+  top: 4px;
+  left: 5px;
+  position: relative;
+}
+
+.business p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: left;
+  color: white;
+  left: 12px;
+  position: relative;
+}
+
+.business .img img {
+  width: 8.8px;
+  height: 4.4px;
+  color: white;
+  left: 17px;
+  top: 1px;
+}
+
+.financial {
+  width: 229px;
+  height: 44px;
+  margin-top: 20px;
+  margin-left: 19px;
+  display: flex;
+  flex-direction: row;
+}
+
+.financial img {
+  width: 15px;
+  height: 19px;
+  color: white;
+  position: relative;
+  left: 14.5px;
+  top: 12.5px;
+}
+
+.financial p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  color: white;
+  left: 25px;
+  position: relative;
+}
+
+.financial .img img {
+  width: 8.8px;
+  height: 4.4px;
+  color: white;
+  left: 31px;
+  top: 10px;
+}
+
+.mailbox-row {
+  width: 82px;
+  height: 24px;
+  margin-top: 20px;
+  margin-left: 29px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mailbox-row img {
+  width: 21px;
+  height: 18px;
+  margin-top: 4.5px;
+  margin-left: 2.5px;
+  color: white;
+}
+
+.mailbox-row p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: white;
+  margin: 2px 2px 0px 8px;
+}
+
+.visa {
+  width: 107px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: 29px;
+  display: flex;
+  flex-direction: row;
+}
+
+.visa img {
+  width: 19px;
+  height: 15px;
+  margin-top: 4.5px;
+  margin-left: 2.5px;
+  color: white;
+}
+
+.visa p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: white;
+  margin: 2px 2px 0px 8px;
+}
+
+.compliance {
+  width: 145px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: 29px;
+  display: flex;
+  flex-direction: row;
+}
+
+.compliance img {
+  width: 18.5px;
+  height: 18.5px;
+  top: 2.5px;
+  left: 2.76px;
+  color: white;
+  position: relative;
+}
+
+.compliance p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: left;
+  color: white;
+  left: 10px;
+  position: relative;
+}
+
+.compliance .img img {
+  width: 27px;
+  height: 24px;
+  left: 21px;
+  border-radius: 6px;
+  top: 0px;
+}
+
+.side-footer {
+  width: 293px;
+  height: 220px;
+  margin-top: 348px;
+}
+
+.footer {
+  width: 226.09px;
+  height: 150.08px;
+  top: 29px;
+  margin: 29px 37.91px 40.92px 29px;
+  background: #0F1738;
+  position: relative;
+}
+
+.notification {
+  width: 118px;
+  height: 24px;
+  gap: 10px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.notification img {
+  width: 15.5px;
+  height: 19.25px;
+  margin-top: 4px;
+  color: white;
+}
+
+.notification p {
+  width: 84px;
+  height: 16px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  ;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: left;
+  color: #FFFFFFD9;
+
+}
+
+.help {
+
+  height: 24.08px;
+  gap: 10px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.help img {
+  width: 19px;
+  height: 19.25px;
+  margin-top: 4px;
+  color: white;
+}
+
+.help p {
+  width: 84px;
+  height: 16px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  ;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: left;
+  color: #FFFFFFD9;
+
+}
+
+.help .img {
+  width: 3px;
+  height: 14.54px;
+  top: 0px;
+  left: 76.5px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+}
+
+.name {
+  height: 42px;
+  gap: 10px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.name .cmp {
+  width: 36px;
+  height: 36px;
+  margin: 3px 0px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+}
+
+.company {
+  width: 143px;
+  height: 42px;
+}
+
+.company h5 {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  margin: 0;
+  color: white;
+}
+
+.company p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  color: #7C89BF;
+  margin: 0;
+}
+
+.name .img {
+  width: 3px;
+  height: 14.54px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  top: 12px;
+  left: 10.5px;
+}

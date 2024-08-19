@@ -1,0 +1,544 @@
+.middle-part {
+  width: 423px;
+  height: 100%;
+  opacity: 1;
+  border-right: 1px solid #C9CEE9;
+  background-color: #F8F9FF;
+}
+
+.middle-heading {
+  width: 313px;
+  height: 58px;
+  margin-top: 40px;
+  margin-left: 40px;
+  gap: 4px;
+  opacity: 0px;
+}
+
+.morning {
+  width: 313px;
+  height: 30px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  color: #1E1F21;
+}
+
+.morning h1 {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+}
+
+.morning span {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 28.6px;
+  text-align: left;
+}
+
+.morning img {
+  width: 30px;
+  height: 30px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 20px;
+}
+
+.welcome {
+  width: 102px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  color: #6A6A6D;
+
+}
+
+.doc-note {
+  width: 343px;
+  height: 201px;
+  margin-top: 32px;
+  margin-left: 40px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.rectangle {
+  background: linear-gradient(104.45deg, #7B92F8 -8.72%, #FF9393 102.16%);
+  width: 343px;
+  height: calc(100% - 18px);
+  top: 18px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  position: relative;
+}
+
+.doc-image {
+  width: 87px;
+  height: 99px;
+  top: -19px;
+  left: 15px;
+  gap: 0px;
+  border: 1px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.doc-head {
+  width: 162px;
+  height: 46px;
+  top: 26px;
+  left: 118px;
+  bottom: 110px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.doc-head h1 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18.2px;
+  text-align: left;
+  color: #1E1F21;
+
+}
+
+.doc-head span {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-align: left;
+
+}
+
+.doc-head .uptodate {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+
+}
+
+.awesome {
+  width: 28.42px;
+  height: 28.42px;
+  bottom: 107.29px;
+  right: 27.29px;
+  gap: 0px;
+  opacity: 0px;
+  color: #FFEAEE80;
+  position: absolute;
+}
+
+.rectangle .line {
+  border: 1px solid #FFFFFF33;
+  width: 295px;
+  height: 0px;
+  top: 92px;
+  bottom: 84px;
+  left: 25px;
+  gap: 0px;
+  border: 1px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.doc-foot {
+  width: 219px;
+  height: 36px;
+  top: 122px;
+  left: 23px;
+  bottom: 24px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.doc-foot h1 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #1E1F21;
+
+}
+
+.doc-foot span {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-align: left;
+
+
+}
+
+.arrow {
+  width: 21px;
+  height: 21px;
+  top: 141px;
+  left: 297px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  background: #AE4855;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.arrow img {
+  width: 5px;
+  height: 8.04px;
+  gap: 0px;
+  color: white;
+  margin-left: 8px;
+
+}
+
+.applications {
+  width: 343px;
+  height: 173px;
+  margin-top: 32px;
+  margin-left: 40px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background: linear-gradient(105.84deg, #263A8B -1.73%, #1A213F 120.63%);
+  border: 1px solid #DFE4FF;
+  display: flex;
+  flex-direction: row;
+}
+
+.chart {
+  width: 143px;
+  height: 149px;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+.chart h2 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  width: 22px;
+  height: 20px;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 60px;
+}
+
+.chart h3 {
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  text-align: center;
+  color: white;
+  margin-top: -10px;
+  position: relative;
+}
+
+.lists {
+  width: 126px;
+  height: 71px;
+  margin-left: 27.98px;
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lists ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.lists li {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 20px;
+  color: white;
+}
+
+.lists .li1::before {
+  content: '';
+  background-color: #F3B17D;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.lists .li2::before {
+  content: '';
+  background-color: #E77D76;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.lists .li3::before {
+  content: '';
+  background-color: #5BB991;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.mailbox {
+  width: 361px;
+  height: 155px;
+  margin-left: 40px;
+  margin-top: 57px;
+  margin-right: 22px;
+}
+
+.mail-head {
+  width: 247px;
+  height: 42px;
+  top: 593px;
+  left: 333px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.mail-head .title {
+  width: 146px;
+  height: 22px;
+  top: 593px;
+  left: 333px;
+  gap: 12px;
+  opacity: 0px;
+  display: flex;
+}
+
+.mail-head .title h1 {
+  color: #1E1F21;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: left;
+  width: 82px;
+  height: 22px;
+
+}
+
+.mail-head .title a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 31.6px;
+  text-align: center;
+  color: #515BAE;
+  width: 52px;
+  height: 20px;
+  position: relative;
+}
+
+.mail-head .check {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 4px;
+  text-align: left;
+  color: #1E1F21;
+  width: 249px;
+  height: 14px;
+}
+
+.mails {
+  width: 361px;
+  height: 81px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mails .set {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0;
+  padding: 0;
+  height: 81px;
+}
+
+.mails .set img {
+  width: 26.95px;
+  height: 27px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.mails .set p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: center;
+  color: #6A6A6D;
+
+}
+
+.mails .set h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: left;
+  color: #1E1F21;
+
+}
+
+.mails .line img {
+  height: 100%;
+}
+
+.legalbox {
+  width: 344px;
+  height: 161px;
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+.legal-head {
+  width: 248px;
+  height: 42px;
+  top: 593px;
+  left: 333px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.legal-head .title {
+  width: 248px;
+  height: 22px;
+  top: 593px;
+  left: 333px;
+  gap: 12px;
+  opacity: 0px;
+  display: flex;
+}
+
+.legal-head .title h1 {
+  color: #1E1F21;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: left;
+  width: 184px;
+  height: 22px;
+
+}
+
+.legal-head .title a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 31.6px;
+  text-align: center;
+  color: #515BAE;
+  width: 52px;
+  height: 20px;
+  position: relative;
+}
+
+.legal-head .keep {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 4px;
+  text-align: left;
+  color: #1E1F21;
+  width: 249px;
+  height: 14px;
+}
+
+.legals {
+  width: 344px;
+  height: 81px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.legals .set {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0;
+  padding: 0;
+  height: 81px;
+}
+
+.legals .set img {
+  width: 26.95px;
+  height: 27px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.legals .set p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: center;
+  color: #6A6A6D;
+
+}
+
+.legals .set h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: left;
+  color: #1E1F21;
+
+}
+
+.legals .line img {
+  height: 100%;
+}
+
+.mails .line {
+  margin-left: 54px;
+}
+
+.legals .line {
+  margin-left: 12px;
+}
